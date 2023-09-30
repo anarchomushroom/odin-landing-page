@@ -5,6 +5,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 a {
@@ -14,6 +15,11 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+img {
+    width: 500px;
+    height: auto;
 }
 
 /* header styling */
@@ -36,4 +42,36 @@ ul {
     display: flex;
     padding-right: 200px;
     gap: 20px;
+}
+
+/* hero styling */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    flex-basis: 400;
+    flex-shrink: 1;
+    padding: 100px 200px 100px 200px;
+    gap: 100px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder ;
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #3882f6;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin: 10px 0px 10px 0px;
+    color: #f9faf8;
 }
