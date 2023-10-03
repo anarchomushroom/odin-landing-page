@@ -75,3 +75,42 @@ img {
     margin: 10px 0px 10px 0px;
     color: #f9faf8;
 }
+
+/* information styling */
+
+.information {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 200px 100px 200px;
+    gap: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.illustration {
+    width: 100px;
+    height: 100px;
+    border: 3px #3882f6 solid;
+    border-radius: 15px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 50px;
+}
+
+.info-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
