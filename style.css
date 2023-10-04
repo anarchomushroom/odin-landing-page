@@ -169,3 +169,12 @@ button.signup-button {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+/* footer styling */
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    padding: 30px;
+}
