@@ -142,3 +142,30 @@ img {
     font-weight: bold;
     color: #1f2937;
 }
+
+/* sign up styling */
+.sign-up {
+    padding: 100px 200px 100px 200px;
+}
+
+.sign-up>.signup {
+    padding: 25px 100px 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-header {
+    font-weight: bold;
+}
+
+button.signup-button {
+    background-color: #3882f6;
+    border-radius: 15px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
